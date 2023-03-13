@@ -73,6 +73,6 @@
         state: restarted
     - name: restart zabbix agent
       systemd:
-        name: zabbix-agent2.service
+        name: zabbix-agent.service
         state: restarted
 
